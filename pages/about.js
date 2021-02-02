@@ -33,7 +33,7 @@ export default function About() {
               <SocialIcon kind="twitter" href={siteMetadata.twitter} />
             </div>
           </div>
-          <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
+          <div className="pt-8 pb-8 prose sm:prose lg:prose-lg xl:prose-xl dark:prose-dark xl:col-span-2">
             <p>
               Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His
               research interests includes complexity modelling of tailwinds, headwinds and

@@ -1,17 +1,17 @@
 {
-  "title": "Next.js Starter Blog",
-  "author": "Tails Azimuth",
-  "headerTitle": "TailwindBlog",
-  "description": "A blog created with Next.js and Tailwind.css",
+  "title": "Shane Wasley Product Designer Portfolio",
+  "author": "Shane Wasley ",
+  "headerTitle": "ShaneWasleyBlog",
+  "description": "Personal site and portfolio for Shane Wasley Product Designer",
   "language": "en-us",
   "siteUrl": "https://tailwind-next-test-porfolio.vercel.app",
-  "siteRepo": "https://github.com/",
+  "siteRepo": "https://github.com/shanewasley/portfolio-tailwind-next",
   "image": "/static/images/avatar.png",
   "socialBanner": "/static/images/twitter-card.png",
-  "email": "address@yoursite.com",
-  "github": "https://github.com",
+  "email": "shane@shanewasley.com",
+  "github": "https://github.com/shanewasley/",
   "twitter": "https://twitter.com/Twitter",
   "facebook": "https://facebook.com",
   "youtube": "https://youtube.com",
-  "linkedin": "https://www.linkedin.com"
+  "linkedin": "https://www.linkedin.com/in/shanewasley/"
 }
