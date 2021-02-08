@@ -21,7 +21,7 @@ export default function PostLayout({ children, frontMatter, next, prev }) {
       <BlogSeo url={`${siteMetdata.siteUrl}/blog/${frontMatter.slug}`} {...frontMatter} />
       <article className="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
         <header className="pt-6 xl:pb-6">
-          <div className="space-y-1 text-center">
+          <div className="space-y-1 text-left">
             <dl className="space-y-10">
               <div>
                 <dt className="sr-only">Published on</dt>
@@ -42,10 +42,12 @@ export default function PostLayout({ children, frontMatter, next, prev }) {
           <dl className="pt-6 pb-10 xl:pt-11 xl:border-b xl:border-gray-200 xl:dark:border-gray-700">
             <dt className="sr-only">Authors</dt>
             <dd>
-              <ul className="flex justify-center space-x-8 xl:block sm:space-x-12 xl:space-x-0 xl:space-y-8">
-                <li className="flex items-center space-x-2">
-                  <img src={siteMetdata.image} alt="avatar" className="w-10 h-10 rounded-full" />
+              <ul className="flex justify-left space-x-8 xl:block sm:space-x-12 xl:space-x-0 xl:space-y-8">
+                <li className="flex items-left space-x-2">
                   <dl className="text-sm font-medium leading-5 whitespace-nowrap">
+                    <h2 className="text-xs tracking-wide text-gray-500 uppercase dark:text-gray-400">
+                      Next Article
+                    </h2>
                     <dt className="sr-only">Name</dt>
                     <dd className="text-gray-900 dark:text-gray-100">{siteMetdata.author}</dd>
                     <dt className="sr-only">Twitter</dt>
@@ -57,6 +59,8 @@ export default function PostLayout({ children, frontMatter, next, prev }) {
                         {siteMetdata.twitter.replace('https://twitter.com/', '@')}
                       </Link>
                     </dd>
+                    <dt className="sr-only">Project Length</dt>
+                    <dd className="text-gray-900 dark:text-gray-100">Makethisfrontmatter</dd>
                   </dl>
                 </li>
               </ul>
