@@ -134,7 +134,7 @@
     url('/fonts/Inter-BlackItalic.woff') format('woff');
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Inter UI var alt';
   font-weight: 100 900;
   font-style: normal;
@@ -147,7 +147,7 @@
   font-style: italic;
   font-named-instance: 'Italic';
   src: url('/fonts/Inter-italic.var.woff2') format('woff2');
-}
+} */
 
 @tailwind utilities;
 
@@ -168,12 +168,12 @@ html {
   font-family: Inter UI, sans-serif;
   --font-family: Inter UI, sans-serif;
 }
-@supports (font-variation-settings: normal) {
+/* @supports (font-variation-settings: normal) {
   html {
     font-family: Inter UI var alt, sans-serif;
     --font-family: Inter UI var alt, sans-serif;
   }
-}
+} */
 
 .prose {
   color: #374151;
